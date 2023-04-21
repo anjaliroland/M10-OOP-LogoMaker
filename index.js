@@ -36,7 +36,7 @@ const createSvg = (fileName, data) => {
         if (err) {
             throw err;
         } else {
-            console.log('Success! Enjoy your new logo!');
+            console.log('Generated logo.svg');
         }
    }) 
 };
