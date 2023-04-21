@@ -1,17 +1,17 @@
 const inquirer =require('inquirer')
 const fs = require('fs');
-const Shapes = require('./lib/shapes/Shapes');
+
 const Circle = require('./lib/shapes/Circle');
 const Square = require('./lib/shapes/Square');
 const Triangle = require('./lib/shapes/Triangle');
-const Colors = require('./lib/Colors');
+const Colors = require('./lib/Color');
 const Text = require('./lib/Text');
 
 const prompts =[
     {
         type: 'input',
         name: 'text',
-        message: "What 3 letters do you want on your logo?"
+        message: "What characters do you want on your logo? You can enter up to 3."
     },
     {
         type: 'input',
