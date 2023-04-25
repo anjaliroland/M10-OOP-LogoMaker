@@ -1,11 +1,7 @@
 const inquirer =require('inquirer')
 const fs = require('fs');
+const Shapes = require('./lib/shapes/Shape');
 
-const Circle = require('./lib/shapes/Circle');
-const Square = require('./lib/shapes/Square');
-const Triangle = require('./lib/shapes/Triangle');
-const Colors = require('./lib/Color');
-const Text = require('./lib/Text');
 
 const prompts =[
     {
